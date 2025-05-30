@@ -15,3 +15,20 @@ This MATLAB-based project simulates the three-dimensional trajectory of a rocket
 - ✅ Drag coefficient calculated with Reynolds number
 - ✅ Comparative analysis: with vs. without wind
 
+---
+
+## 📊 Visual Output
+
+| Trajectory 3D | Wind vs. No Wind | Horizontal Deviation |
+|---------------|------------------|------------------------|
+| ![Trajectory](demo_plots/3d_trajectory.png) | ![Compare](demo_plots/comparison.png) | ![XY](demo_plots/horizontal.png) |
+
+---
+
+## 🧠 Physics Behind the Model
+
+**Forces**:
+\[
+F_{\text{net}} = F_{\text{thrust}} - F_{\text{gravity}} - F_{\text{drag}} + F_{\text{{wind}} + F_{\text{coriolis}}
+\]
+
