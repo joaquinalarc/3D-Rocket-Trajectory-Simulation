@@ -28,7 +28,7 @@ This MATLAB-based project simulates the three-dimensional trajectory of a rocket
 ## 🧠 Physics Behind the Model
 
 **Forces**:
-\[
-F_{\text{net}} = F_{\text{thrust}} - F_{\text{gravity}} - F_{\text{drag}} + F_{\text{{wind}} + F_{\text{coriolis}}
-\]
+  \[
+  F_{\text{net}} = F_{\text{thrust}} - F_{\text{gravity}} - F_{\text{drag}} + F_{\text{wind}} + F_{\text{coriolis}}
+  \]
 
