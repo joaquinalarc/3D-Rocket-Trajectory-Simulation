@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3c95db01-e7e3-441b-a42f-d6d93a81bf13)# 3D ROCKET TRAJECTORY SIMULATION 🚀
+# 3D ROCKET TRAJECTORY SIMULATION 🚀
 
 This MATLAB-based project simulates the three-dimensional trajectory of a rocket, accounting for key physical factors such as gravity, air resistance, thrust, variable mass, atmospheric density, the Coriolis effect, and crosswind forces. The goal is to model and visualize realistic rocket motion in a dynamic environment.
 
