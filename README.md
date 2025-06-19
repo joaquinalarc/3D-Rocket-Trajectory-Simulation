@@ -21,7 +21,7 @@ This MATLAB-based project simulates the three-dimensional trajectory of a rocket
 
 | Trajectory 3D | Wind vs. No Wind | Horizontal Deviation |
 |---------------|------------------|------------------------|
-| ![Trajectory](plots/rocket_3D_trajectroy.png) | ![Compare](demo_plots/comparison.png) | ![XY](demo_plots/horizontal.png) |
+| ![Trajectory](plots/rocket_3D_trajectory.png) | ![Compare](demo_plots/comparison.png) | ![XY](demo_plots/horizontal.png) |
 
 ---
 
