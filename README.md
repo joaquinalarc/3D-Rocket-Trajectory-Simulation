@@ -1,4 +1,4 @@
-# 3D ROCKET TRAJECTORY SIMULATION 🚀
+![image](https://github.com/user-attachments/assets/3c95db01-e7e3-441b-a42f-d6d93a81bf13)# 3D ROCKET TRAJECTORY SIMULATION 🚀
 
 This MATLAB-based project simulates the three-dimensional trajectory of a rocket, accounting for key physical factors such as gravity, air resistance, thrust, variable mass, atmospheric density, the Coriolis effect, and crosswind forces. The goal is to model and visualize realistic rocket motion in a dynamic environment.
 
@@ -27,23 +27,50 @@ This MATLAB-based project simulates the three-dimensional trajectory of a rocket
 
 ## 🧠 Physics Behind the Model
 
-- **Forces**:
-  \[
-  F_net = F_thrust - F_gravity - F_drag + F_wind + F_coriolis
-  \]
+The simulation incorporates realistic physics and engineering assumptions based on rocketry principles. Key components include:
+
+---
+
+### 🔹 Net Force Calculation
+The total net force acting on the rocket is defined as:
+
+EQ 1
+
+---
   
-- **Drag Force**:  
-  \[
-  F_d = \frac{1}{2} \rho C_d A v^2
-  \]
+### 🔹 Drag Force
+Aerodynamic drag is computed using the standard quadratic drag formula:
 
-- **Atmospheric Density**:
-Uses standard stratospheric models.
+EQ 2
 
-- **Variable mass**:
-  \[
-  m(t) = m_{\text{rocket}} + m_{\text{fuel}} - \dot{m} \cdot t
-  \]
+Where:
+- ρ = air density
+- Cd = drag coefficient
+- A = frontal area of the rocket
+- v = velocity magnitude
+
+---
+
+### 🔹 Atmospheric Density Model:
+The simulation uses a two-layer atmosphere:
+- **Troposphere (0-11 km):** Temperature lapse rate model.
+- **Stratosphere (>11 km):** Isothermal model with exponential decay.
+
+---
+
+### 🔹 Variable Mass
+The rocket’s mass decreases over time as fuel burns, defined as:
+
+EQ 3
+
+Where \( \dot{m} \) is the mass flow rate derived from thrust and specific impulse:
+
+EQ 4
+
+---
+
+### 🔹 Coriolis Force
+Due to Earth's rotation, a Coriolis term is added to the dynamics for lateral deflection, especially at non-equatorial latitudes. 
 
 ---
 
