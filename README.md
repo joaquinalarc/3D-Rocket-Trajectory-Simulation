@@ -34,14 +34,14 @@ The simulation incorporates realistic physics and engineering assumptions based 
 ### 🔹 Net Force Calculation
 The total net force acting on the rocket is defined as:
 
-EQ 1
+![Net Force Equation](images/Net_Force-No_bg.png)
 
 ---
   
 ### 🔹 Drag Force
 Aerodynamic drag is computed using the standard quadratic drag formula:
 
-EQ 2
+![Drag Force Equation](images/Drag_Equation-No_bg.png)
 
 Where:
 - ρ = air density
@@ -61,11 +61,11 @@ The simulation uses a two-layer atmosphere:
 ### 🔹 Variable Mass
 The rocket’s mass decreases over time as fuel burns, defined as:
 
-EQ 3
+![Mass Equation](images/m(t).png)
 
 Where \( \dot{m} \) is the mass flow rate derived from thrust and specific impulse:
 
-EQ 4
+![Mass Dot Equation](images/mdot.png)
 
 ---
 
