@@ -17,6 +17,14 @@ This MATLAB-based project simulates the three-dimensional trajectory of a rocket
 
 ---
 
+## Folder Structure
+
+- `src/`: All MATLAB source files.
+- `report/`: The final PDF report and supporting documents.
+- `images/`: Exported figures used for the report or documentation.
+
+---
+
 ## 📊 Visual Output
 
 | Trajectory 3D | Wind vs. No Wind | Horizontal Deviation |
@@ -42,6 +50,8 @@ This MATLAB-based project simulates the three-dimensional trajectory of a rocket
    - Real-time rocket animation
 
 All visual outputs are automatically saved in the `images/` folder as PNG files. These include trajectory plots, velocity and acceleration graphs, and wind comparison charts.
+
+---
 
 ## 🧠 Physics Behind the Model
 
