@@ -21,7 +21,7 @@ This MATLAB-based project simulates the three-dimensional trajectory of a rocket
 
 - `src/`: All MATLAB source files.
 - `report/`: The final PDF report and supporting documents.
-- `images/`: Exported figures used for the report or documentation.
+- `plots/`: Exported figures used for the report or documentation.
 
 ---
 
