@@ -25,6 +25,24 @@ This MATLAB-based project simulates the three-dimensional trajectory of a rocket
 
 ---
 
+## 🔧 How to use
+
+1. Clone the repository or download the source files.
+2. Open `main.mlx` in MATLAB
+3. Run the script. You will be prompted to imput the following parameters:
+   - Rocket mass, fuel mass, thrust, diameter, height
+   - Launch angles and latitude
+   - Wind speed and direction
+   - Nose cone shape and fuel type
+4. The simulation will compute:
+   - 3D Trajectory with aerodynamic effect
+   - 3D model of the rocket
+   - Velocity and acceleration graph
+   - Comparaison between wind and no-wind
+   - Real-time rocket animation
+
+All visual outputs are automatically saved in the `images/` folder as PNG files. These include trajectory plots, velocity and acceleration graphs, and wind comparison charts.
+
 ## 🧠 Physics Behind the Model
 
 The simulation incorporates realistic physics and engineering assumptions based on rocketry principles. Key components include:
@@ -92,6 +110,21 @@ Due to Earth's rotation, a Coriolis term is added to the dynamics for lateral de
 I'm Joaquin, a freshman at **Purdue University** majoring in Aerospace Engineering. This project was developed to deepen my understanding of rocket dynamics and prepare for research opportunities in propulsion and trajectory modeling 
 
 Feel free to reach out or connect with me on [LinkedIn](https://pe.linkedin.com/in/joaquin-alarcon)
+
+---
+
+## Conclusion & Future Work:
+
+This project succesfully simulates the 3D trajectory of a rocket using a physics-based model in MATLAB, incorporating factors such as variable mass, crosswind, and aerodynamic drag dependent on rocket geometry. The model also includes real-time 3D visualization and comparative analysis under different atmospheric conditions. 
+
+While the simulation yields realistic outputs, further development could include:
+- Multi-stage rocket modelling
+- Dynamic thrust variation based on engine data
+- Integration with real atmospheric models (e.g., NOAA datasets)
+- GUI implementation for user-friendly parameter input
+- Validation with experimental or published data
+
+This simulation lays the foundation for deeper exploration in aerospace dynamics and software-based propulsion analysis.
 
 ---
 
